@@ -1,0 +1,27 @@
+{
+"manifest_version": 2,
+"name": "Macte! Search test example",
+"version": "0.1.0",
+"description": "Macte! Search test example",
+"minimum_chrome_version" : "6.0",
+"icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"},
+"permissions": ["contextMenus", "tabs", "storage"],
+
+"background":{
+    "page":"background.html"
+    } ,
+"browser_action": {
+    "default_icon": "icon48.png",
+    "default_title": "Macte! Search test example",
+    "default_popup": "popup.html"
+},
+
+"web_accessible_resources": [
+    "style/favicons/google.png",
+    "style/favicons/yandex.png"    
+  ]
+}
